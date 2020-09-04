@@ -31,7 +31,7 @@ class Anagram extends Component{
 
 
         if(firstWord === '' && secondWord ===''){
-            this.setState({isAnagram: 'Hmmmm?'
+            this.setState({isAnagram: 'Anagram Checker'
         });
         }
         else if (stringASorted === stringBSorted){

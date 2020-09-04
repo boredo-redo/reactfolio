@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import './project.sass';
 import Clock from './Clock';
 import Anagram from './Anagram';
 import { Form, FormControl, Button} from 'react-bootstrap';
