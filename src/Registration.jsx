@@ -132,6 +132,7 @@ class Registration extends React.Component {
                 <h3>Number of Students: {this.state.numStudents}</h3>
                 <h3>Has Aircondition: {this.state.hasAircon ? "Yes" : "No"}</h3>
                 <hr />
+                <hr/>
                 <Finder
                     onFullnameChange={this.handleFullNameChange}
                     onAgeChange={this.handleAgeChange}
